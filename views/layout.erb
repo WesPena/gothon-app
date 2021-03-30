@@ -1,0 +1,20 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <title>Gothon App</title>
+  <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Archivo:700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="<%= url('/stylesheets/style.css')%>" type="text/css">
+  </head>
+  <body>
+  	
+  <%= yield %>
+
+  <div class="counter"><h2>Death Counter</h2><p><%= @death %></p></div>
+</script>
+  </body>
+</html>
